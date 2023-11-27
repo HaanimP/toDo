@@ -1,0 +1,38 @@
+body {
+    background: #1D4646;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#todo-container {
+    color: #088F8F;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20%;
+}
+
+#task-input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+#add-btn, #sort-btn, #delete-btn {
+    background: #63D4D6;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 8px;
+}
